@@ -1,31 +1,31 @@
-# DIKKAT EDILMESI GEREKENLER
+# THINGS TO PAY ATTENTION
 
 ***
 
-***GITHUB DA DIKKAT EDILMESI GEREKENLER***
-> Projede calismaya baslamadan once mutlaka
+***THINGS TO CONSIDER ON GITHUB***
+> Before starting to work on the project, it must be
 >
->      1- master branch 'inde "git pull" islemi yapilmalidir
->      2- kendi branch 'imize gecip "git merge master" islemi yapilmalidir.
-> Github'a ekleme yapilirken kesinlikle **git add** kullanilmayacak!
+> 1- "git pull" should be done on master branch
+> 2- Switch to our own branch and "git merge master" should be done.
+> Absolutely no **git add** will be used when adding to Github!
 
-***COMMIT ETME ISLEMI***
-> **git add src/test/java/pages/US001_002_003_004_005.java** seklinde yapilacak!
->> (class'a sag click > copy path/.. > path from content root) dosya yolu kopyalanir.
+***COMMIT PROCESS***
+> It will be done as **git add src/test/java/pages/US001_002_003_004_005.java**!
+>> (right click on class > copy path/.. > path from content root) file path is copied.
 >
-> **git commit -m"GG.AA.YY/name-2"** (-2 --> gün içinde push etme sayısına göre)
+> **git commit -m"DD.MM.YY/name-2"** (-2 --> based on number of pushes in days)
 >
 > **git push**
 
 ***
-> -Her islemden once mutlaka master branch 'inde olunmadigi kontrol edilmelidir.
+> -Before every operation, it must be checked that it is not in the master branch.
 >
-> -Master branch'inde degisiklik gerekiyorsa lead ile iletisime gecilmeli
+> -If a change is required in the master branch, contact the lead
 ***
 
-# Class Isimlendirmeleri
->  PAGES paketinde isimlendirme **US001_002_003** seklinde olacak!
+# Class Names
+> In the PAGES package, the naming will be **US001_002_003**!
 >
->  STEPDEFINITIONS paketinde isimlendirme **TrendLifeBuy001_002_003** seklinde olacak!
+> In the STEPDEFINITIONS package, the naming will be **TrendLifeBuy001_002_003**!
 >
->  FEATURE paketinde isimlendirme **US_001_trendlife.feature** seklinde olacak!
+> In the FEATURE package, the naming will be **US_001_trendlife.feature**!
