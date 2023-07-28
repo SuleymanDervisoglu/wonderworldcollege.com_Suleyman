@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/failedRerun.txt"
         },
         features = "src/test/resources",
-        glue = {"stepDefinitions"},
-        tags = "@query4",
+        glue = {"stepdefinitions"},
+        tags = "@sd",
         dryRun = false
 )
 
