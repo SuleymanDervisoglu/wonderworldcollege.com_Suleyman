@@ -104,4 +104,66 @@ public class TeacherPage {
     @FindBy (xpath = "//*[contains(text(), 'Search')]")
     public WebElement periodByDate_SearchButton;
 
+
+    @FindBy (xpath = "//*[@id=\"form-username\"]")
+    public WebElement teacher_UserName;
+
+    @FindBy (xpath = "//*[@id=\"form-password\"]")
+    public WebElement teacher_UserPassword;
+
+    @FindBy (xpath = "//*[@type='submit']")
+    public WebElement teacher_SignButton;
+
+    @FindBy (xpath = "//*[@id=\"sibe-box\"]/ul[2]/li[6]/a/span")
+    public WebElement teacher_HumanResource_menu;
+
+    @FindBy (xpath = "//*[@id=\"sibe-box\"]/ul[2]/li[6]/ul/li[2]/a")
+    public WebElement teacher_HumanResource_Apply;
+
+
+    @FindBy (xpath = "//*[@onclick='addLeave()']")
+    public WebElement teacher_HumanResource_ApplyLeaveButton;
+
+
+    @FindBy (xpath = "//*[@id='applieddate']")
+    public WebElement applyLeaveDateBox;
+
+    @FindBy (xpath = "/html/body/div[6]/div[1]/table/tbody/tr[3]/td[3]")
+    public WebElement applyLeaveDateChoosen;
+
+    @FindBy (xpath = "(//*[@id=\"leave_type\"])[2]")
+    public WebElement applyLeaveAvailable_box;
+
+    @FindBy (xpath = "//div[3]//form//select//option[2]")
+    public WebElement LeaveAvailable_Choosen;
+
+    @FindBy (xpath = "(//div[3]//form//input[@type='text'])[2]")
+    public WebElement leaveFromDateBox;
+
+    @FindBy (xpath = "/html/body/div[6]/div[1]/table/tbody/tr[2]/td[2]")
+    public WebElement leaveFromDateBox_Choosen;
+    @FindBy (xpath = "(//div[3]//form//input[@type='text'])[3]")
+    public WebElement leaveToDateBox;
+
+    @FindBy (xpath = "(/html/body/div[6]/div[1]/table/tbody/tr[2]/td[2])")
+    public WebElement leaveToDateBox_Choosen;
+
+    //*[@id="reason"]
+    @FindBy (xpath = "//*[@id=\"reason\"]")
+    public WebElement leaveReasonBox;
+
+    @FindBy (xpath = "(//div[3]//form//button[1])[2]")
+    public WebElement leaveSaveButton;
+
+    @FindBy (xpath = "//section[2]//table//tr//td[6]//small")
+    public WebElement leavePendingStatus1;
+
+    @FindBy (xpath = "//*[@id=\"DataTables_Table_0\"]/tbody/tr/td[7]/a[2]/i")
+    public WebElement leaveDeleteButton;
+
+
+
+
+
+
 }
